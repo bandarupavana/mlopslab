@@ -43,5 +43,5 @@ tpot.export("best_classifier_pipeline.py")
 
 
 #docker build -t automl-tpot .
-#docker run --rm -v %cd%:/app automl-tpot python automl_script.py
-#docker run --rm -v ${PWD}:/app automl-tpot python automl_script.py
+#docker run --rm -v %cd%:/app automl-tpot python automl_classifier.py
+#docker run --rm -v ${PWD}:/app automl-tpot python automl_classifier.py
